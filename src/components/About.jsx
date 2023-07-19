@@ -58,6 +58,7 @@ const About = () => {
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
+        
       </div>
     </>
   )
