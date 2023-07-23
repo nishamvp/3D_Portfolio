@@ -4,17 +4,17 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    expressJS,
+    viteJS,
     html,
     css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
+    firebase,
     meta,
     starbucks,
     tesla,
@@ -73,16 +73,16 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "expressJS",
+      icon: expressJS,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "viteJS",
+      icon: viteJS,
     },
     {
       name: "Tailwind CSS",
@@ -109,8 +109,8 @@ import {
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "firebase",
+      icon: firebase,
     },
   ];
   

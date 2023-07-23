@@ -19,7 +19,10 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import viteJS from './tech/viteJS.png'
 import threejs from "./tech/threejs.svg";
+import expressJS from './tech/expressJS.png'
+import firebase from './tech/firebase.png'
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -51,6 +54,9 @@ export {
   redux,
   tailwind,
   typescript,
+  expressJS,
+  viteJS,
+  firebase,
   threejs,
   meta,
   shopify,

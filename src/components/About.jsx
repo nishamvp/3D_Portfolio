@@ -14,16 +14,23 @@ const ServiceCard = ({ index, title, icon }) => {
         variants={fadeIn('right', 'spring', 0.5 * index, 0.75)}
         className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
       >
-        <div options={{
-          max:45,
-          scale:1,
-          speed:450
-        }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex flex-col justify-evenly items-center '
+        <div
+          options={{
+            max: 45,
+            scale: 1,
+            speed: 450,
+          }}
+          className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex flex-col justify-evenly items-center "
         >
-
-        <img src={icon} alt={title} srcset="" className='w-16 h-16 object-contain' />
-        <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <img
+            src={icon}
+            alt={title}
+            srcset=""
+            className="w-16 h-16 object-contain"
+          />
+          <h3 className="text-white text-[20px] font-bold text-center">
+            {title}
+          </h3>
         </div>
       </motion.div>
     </Tilt>
@@ -41,27 +48,24 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an enthusiastic MERN Stack Developer with 0.7 years of experience
-        and a strong educational background in Statistics. I have completed a
-        web development internship at Techmindz and successfully delivered
-        multiple freelance projects. Currently, I am working on an e-commerce
-        web application that demonstrates my expertise in Node JS, Express JS,
-        MongoDB, HTML, AJAX, HBS, and Bootstrap. With a keen eye for detail and
-        analytical abilities, I am dedicated to staying updated with the latest
-        technologies and industry trends. My decision-making, teamwork, and
-        leadership skills make me a valuable asset to any collaborative project.
-        I am excited about the opportunity to join Deepnetsoft and contribute to
-        its success. Please review my attached resume, and I am available for
-        further discussion via phone or email.
+        Welcome to my portfolio website! As a solution-focused Web Developer,
+        I'm dedicated to crafting web-based applications that combine
+        innovation, usability, and aesthetics. I have expertise in HTML5, CSS,
+        Bootstrap, JavaScript, Node.js, Express.js, and MongoDB. My portfolio
+        showcases projects such as an E-commerce web app, a UAE Municipality
+        Data Followup Web App, and various mini-projects that highlight my
+        versatility. I am a strong team player, decisive decision-maker, and
+        committed to delivering high-quality solutions. Let's collaborate and
+        create remarkable web experiences together! Feel free to explore my work
+        and get in touch. Thank you for visiting!
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-        
       </div>
     </>
   )
 }
 
-export default sectionWrapper(About,"about") 
+export default sectionWrapper(About, 'about')
