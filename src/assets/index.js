@@ -29,8 +29,10 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
+import mobileStore from "./mobilestore.png"
 import jobit from "./jobit.png";
+import albataeh from './Albataeh screenshot 2.png'
+import olx from './olx.png'
 import tripguide from "./tripguide.png";
 
 export {
@@ -62,7 +64,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  mobileStore,
   jobit,
+  albataeh,
+  olx,
   tripguide,
 };

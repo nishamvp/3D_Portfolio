@@ -21,4 +21,6 @@ const sectionWrapper = (Component,idName) =>
     } 
 
 
+
+
 export default sectionWrapper
