@@ -27,11 +27,13 @@ import firebase from './tech/firebase.png'
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import Techmindz from "./company/Techmindz.png"
+import Al_Bataeh_Logo from "./company/Al Bataeh Logo.png"
 import tesla from "./company/tesla.png";
 
 import mobileStore from "./mobilestore.png"
 import jobit from "./jobit.png";
-import albataeh from './Albataeh screenshot 2.png'
+import Al_Bataeh_CHC from './CHC_Al_Bataeh.png'
 import olx from './olx.png'
 import tripguide from "./tripguide.png";
 
@@ -63,10 +65,12 @@ export {
   meta,
   shopify,
   starbucks,
+  Techmindz,
+  Al_Bataeh_Logo,
   tesla,
   mobileStore,
   jobit,
-  albataeh,
+  Al_Bataeh_CHC,
   olx,
   tripguide,
 };
