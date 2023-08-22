@@ -105,6 +105,7 @@ const Contact = () => {
           >
             {loading ? 'Sending' : 'Send'}
           </button>
+            <a className='font-bold text-blue-400 justify-center flex ' href="https://formsubmit.co/el/satala" target="_blank">Trouble with submiting the form try this..</a>
         </form>
       </motion.div>
 
