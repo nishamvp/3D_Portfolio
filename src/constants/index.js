@@ -170,27 +170,27 @@ const testimonials = [
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but he proved me wrong.",
-    name: "Sara Lee",
+    name: "Al-Bathaeh Muncipality",
     designation: "CFO",
     company: "Albataeh",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "/logo.png",
   },
   {
     testimonial:
       "I've never met a web developer who truly cares about their clients' ",
-    name: "Chris Brown",
+    name: "Customer Happiness Center Al-Bataeh",
     designation: "COO",
-    company: "ABC Info",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    company: "CHC Al-Bataeh",
+    image: "/logo.png",
   },
-  {
-    testimonial:
-      "After optimizing our website, our traffic increased by 50%. We are incredibly grateful!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After optimizing our website, our traffic increased by 50%. We are incredibly grateful!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   // image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
