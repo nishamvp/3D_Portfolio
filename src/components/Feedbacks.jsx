@@ -30,7 +30,7 @@ const FeedbackCard = ({
           </p>
           <p className='mt-1 text-secondary text-[12px]'>{designation} of {company}</p>
         </div>
-        <img className='w-10 h-10 rounded-full object-cover' src={image} alt={name} srcset="" />
+        <img className='w-10 h-10 rounded-full object-cover' src={image} alt={name} srcSet="" />
 
       </div>
       </div>
