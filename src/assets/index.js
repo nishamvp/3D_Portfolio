@@ -32,6 +32,9 @@ import Al_Bataeh_Logo from "./company/Al Bataeh Logo.png"
 import tesla from "./company/tesla.png";
 
 import mobileStore from "./mobilestore.png"
+import purchaseFlow from "./purchaseflow.jpg";
+import albataehWebsite from "./albataeh_website.png";
+import jon from "./jon.png"
 import jobit from "./jobit.png";
 import Al_Bataeh_CHC from './CHC_Al_Bataeh.png'
 import olx from './olx.png'
@@ -69,6 +72,9 @@ export {
   Al_Bataeh_Logo,
   tesla,
   mobileStore,
+  purchaseFlow,
+  albataehWebsite,
+  jon,
   jobit,
   Al_Bataeh_CHC,
   olx,

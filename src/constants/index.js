@@ -18,9 +18,12 @@ import {
   Techmindz,
   Al_Bataeh_Logo,
   mobileStore,
+  purchaseFlow,
   olx,
   Al_Bataeh_CHC,
   threejs,
+  albataehWebsite,
+  jon,
 } from "../assets";
 
 const navLinks = [
@@ -40,7 +43,7 @@ const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
@@ -52,7 +55,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Web Designer",
     icon: creator,
   },
 ];
@@ -131,39 +134,26 @@ const experiences = [
     company_name: "Al-Bataeh Muncipality(Freelancer)",
     icon: Al_Bataeh_Logo,
     iconBg: "#fefefe",
-    date: "February 2023 - Present",
+    date: "February 2023 - July 2023",
     points: [
       "Developing and maintaining web applications using Nodejs and other related technologies.",
       "Collaborated with clients to develop and maintain web projects,ensuring effective communication and understanding of project requirements.",
       "Demonstrated strong project management skills, delivering high-quality web solutions on time while actively incorporating client feedback and addressing their needs.",
     ],
   },
-  // {
-  //   title: "Web Developer",
-  //   company_name: "Shopify",
-  //   icon: shopify,
-  //   iconBg: "#383E56",
-  //   date: "Jan 2022 - Jan 2023",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "Full stack Developer",
-  //   company_name: "Meta",
-  //   icon: meta,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2023 - Present",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
+  {
+    title: "Backend Developer",
+    company_name: "Jon East Digital Media",
+    icon: jon,
+    iconBg: "#383E56",
+    date: "August 2023 - Present",
+    points: [
+      "Designed and developed a high-performance iGaming platform using Node.js with Fastify, achieving scalability and seamless data operations through Prisma ORM and PostgreSQL integration.",
+      "Implemented Google Two-Factor Authentication (2FA) and reCAPTCHA to enhance security, significantly reducing vulnerabilities and improving platform reliability.",
+      "Created and maintained RESTful APIs, optimised middleware, and reduced server response time by 30%, ensuring efficient client-server communication.",
+      "Spearheaded Agile workflows and daily stand-ups, streamlining cross-functional collaboration and reducing issue resolution time from 48 hours to 12 hours.",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -195,9 +185,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Mobile-eStore ",
+    name: "Purchase Flow ",
     description:
-      "I successfully designed and developed a feature-rich mobile-store web application, equipped with user roles (admin and users), seamless cart management, and efficient order processing. Additionally, I integrated secure payment gateways like PayPal and Razorpay for smooth online transactions.",
+      "A role-based web application for managing internal purchase requests across departments. Employees can create requests, managers approve them, and purchase teams process and close them. Includes status tracking, automatic expiry handling, and full audit transparency to streamline procurement operations.",
     tags: [
       {
         name: "nodejs",
@@ -212,8 +202,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: mobileStore,
-    source_code_link: "https://github.com/nishamvp/e-commerce-site",
+    image: purchaseFlow,
+    source_code_link: "https://github.com/nandakiran-r/PurchaseFlow",
   },
   {
     name: "Data Followup Web App ",
@@ -234,12 +224,12 @@ const projects = [
       },
     ],
     image: Al_Bataeh_CHC,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/nishamvp/CHC",
   },
   {
-    name: "OLX-Clone",
+    name: "Al Bataeh official website",
     description:
-      "  I created an OLX clone using React JS and Firebase, implementing the React Context API for optimized state management. The application offers users a seamless experience while providing functionalities like  efficient state handling through the Context API.",
+      "A modern and responsive website designed for Al Bataeh Municipality to organize and present public service information, announcements, and department details. The project was completed and handed over for internal review and deployment by the municipality’s IT team. Includes bilingual support and a clean user-friendly layout.",
     tags: [
       {
         name: "nextjs",
@@ -254,8 +244,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: olx,
-    source_code_link: "https://github.com/nishamvp/React_tutorial_olx_clone",
+    image: albataehWebsite,
+    source_code_link: "http://github.com/nishamvp/Al-Bataeh-Official-Website",
   },
 ];
 
